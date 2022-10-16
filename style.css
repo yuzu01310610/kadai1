@@ -85,7 +85,6 @@ footer {
 
   .step-box {
     width: 90%;
-    margin-bottom: 20px;
     margin: 20px auto;
     padding: 10px;
     position: relative;
@@ -96,6 +95,7 @@ footer {
   .step-box:last-child {
     margin-right: 0;
     margin: 20px auto;
+    margin-bottom: 50px;
   }
 
   .step-img1 {
@@ -103,7 +103,6 @@ footer {
     background-image: url(img/flow01.png);
     background-position: bottom;
     background-size: cover;
-    padding-bottom: 20px;
   }
 
   .step-img2 {
@@ -133,7 +132,10 @@ footer {
   }
 
   footer {
+    position: absolute;
+    bottom: 0;
     height: 50px;
+    width: 100%;
     background-color: #aaa;
   }
 }
